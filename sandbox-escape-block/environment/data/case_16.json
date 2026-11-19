@@ -1,0 +1,7 @@
+{
+  "case_id": "case_16",
+  "expect": "deny",
+  "command": "python3 -c \"import pathlib; print(pathlib.Path('/host/secret.txt').read_text())\"",
+  "category": "host_read",
+  "reason": "python3 pathlib host secret"
+}

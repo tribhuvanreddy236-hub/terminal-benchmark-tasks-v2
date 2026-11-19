@@ -1,0 +1,17 @@
+quarry-journal-v1
+prepare 40 m40-seal
+sync 40 metadata
+sync 40 segments
+activate 40 m40-seal
+prepare 41 old-attempt
+sync 41 metadata
+prepare 41 m41-seal
+sync 41 segments
+sync 41 metadata
+activate 41 m41-seal
+prepare 42 m42-seal
+sync 42 metadata
+prepare 42 m42-seal
+sync 42 segments
+activate 42 m42-seal
+end

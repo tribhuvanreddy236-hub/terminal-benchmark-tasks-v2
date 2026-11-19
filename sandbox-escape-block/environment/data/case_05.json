@@ -1,0 +1,7 @@
+{
+  "case_id": "case_05",
+  "expect": "deny",
+  "command": "cat /host/secret.txt",
+  "category": "host_read",
+  "reason": "absolute host secret"
+}

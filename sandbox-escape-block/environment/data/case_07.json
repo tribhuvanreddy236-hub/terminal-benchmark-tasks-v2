@@ -1,0 +1,7 @@
+{
+  "case_id": "case_07",
+  "expect": "deny",
+  "command": "cat  /host/secret.txt",
+  "category": "host_read",
+  "reason": "double space after cat"
+}

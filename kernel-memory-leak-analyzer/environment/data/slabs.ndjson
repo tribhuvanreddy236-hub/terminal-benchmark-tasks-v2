@@ -1,0 +1,10 @@
+{"slab_name":"kmalloc-128","snapshot_ts":1716000000,"active_objs":1543,"num_objs":2048,"objsize":128,"num_slabs":16}
+{"slab_name":"kmalloc-256","snapshot_ts":1716000000,"active_objs":3120,"num_objs":4096,"objsize":256,"num_slabs":32}
+{"slab_name":"kmalloc-512","snapshot_ts":1716000000,"active_objs":890,"num_objs":1024,"objsize":512,"num_slabs":8}
+{"slab_name":"kmalloc-1024","snapshot_ts":1716000000,"active_objs":410,"num_objs":512,"objsize":1024,"num_slabs":4}
+{"slab_name":"kmalloc-2048","snapshot_ts":1716000000,"active_objs":215,"num_objs":256,"objsize":2048,"num_slabs":2}
+{"slab_name":"kmalloc-4096","snapshot_ts":1716000000,"active_objs":108,"num_objs":128,"objsize":4096,"num_slabs":1}
+{"slab_name":"bio-256","snapshot_ts":1716000000,"active_objs":612,"num_objs":768,"objsize":256,"num_slabs":6}
+{"slab_name":"skbuff_head_cache","snapshot_ts":1716000000,"active_objs":2308,"num_objs":2560,"objsize":232,"num_slabs":20}
+{"slab_name":"xfs_inode","snapshot_ts":1716000000,"active_objs":5821,"num_objs":6144,"objsize":1024,"num_slabs":48}
+{"slab_name":"ext4_inode_cache","snapshot_ts":1716000000,"active_objs":4001,"num_objs":4608,"objsize":1024,"num_slabs":36}

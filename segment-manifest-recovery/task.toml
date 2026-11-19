@@ -1,0 +1,32 @@
+artifacts = ["/app/"]
+name = "segment-manifest-recovery"
+
+[metadata]
+author_name = "anonymous"
+author_email = "anonymous"
+category = "Software"
+subcategory = "Databases"
+tags = ["lsm-storage", "crash-recovery", "transactions", "snapshots", "rust"]
+languages = ["rust"]
+difficulty = "advanced"
+expert_time_estimate_hours = 8
+difficulty_explanation = "The recovery planner must reconcile an ahead-of-durability CURRENT pointer with ordered journal witnesses, replay only the selected manifest's active sealed segments, place transactional writes at commit time, preserve historical snapshots, retain tombstones through version selection, and cut the physical record tail at the manifest checkpoint. The visible incident teaches the durability boundary, transaction visibility, and deletion behavior through independently recorded counts, while four disjoint verifier stores isolate those rules and combine them in unseen histories. Straightforward choices such as trusting CURRENT, scanning every segment, ordering transaction writes by prepare sequence, or dropping tombstones each produce plausible output while failing different hidden families. Advanced is the target tier pending the required two-model measurement."
+solution_explanation = "The reference planner walks the journal as ordered per-epoch cycles, resetting a cycle on each prepare and recording an epoch only after matching prepare and activation seals enclose both sync domains. It selects the highest durable manifest, loads and verifies only active segment references, indexes transaction terminal records, converts committed transaction operations to the commit sequence, and merges ordinary and committed versions independently for every requested snapshot and the checkpoint. Deletes remain versions until each view's newest operation is selected. Rendering preserves manifest snapshot order and sorts live keys by byte order."
+verification_explanation = "The separate verifier loads four sealed store families and their certified state bytes into memory and unlinks the sealed tree before compiling or running agent code. It rejects symlinks, copies the submitted Rust source to sandbox-owned scratch space, rebuilds with rustc, and runs every candidate process as uid 12000 with no-new-privs, a fresh home, opaque case paths, and a new session whose process group is killed after execution. Sixteen behavioral tests cover verifier isolation, the required primary artifact, the visible acceptance checker, incomplete activation, restarted prepare cycles, checkpoint tails, transaction commit timing and final-write selection, aborted and unterminated transactions, tombstone retention, exact snapshot boundaries, candidate and malformed orphan isolation, manifest view order, bytewise key order, deterministic reruns, and byte preservation of every read-only shipped file. Hidden inputs and expected outputs are disjoint from the shipped incident; no numeric tolerance is used."
+relevant_experience = "I worked on database and systems programming projects in college. This experience includes studying transactions, storage formats, data recovery, and testing programs that handle incomplete or inconsistent data."
+
+[verifier]
+timeout_sec = 1800
+environment_mode = "separate"
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 7200
+network_mode = "no-network"
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900
+cpus = 2
+memory_mb = 8192
+storage_mb = 10240

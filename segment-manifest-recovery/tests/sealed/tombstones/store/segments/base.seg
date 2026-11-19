@@ -1,0 +1,7 @@
+quarry-segment-v2
+id base
+generation 1
+put 5 red 6f6e65
+put 6 blue 74776f
+seal s-base
+end

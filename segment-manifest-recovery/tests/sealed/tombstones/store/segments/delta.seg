@@ -1,0 +1,8 @@
+quarry-segment-v2
+id delta
+generation 9
+del 20 red
+put 25 blue 7468726565
+del 30 blue
+seal s-delta
+end

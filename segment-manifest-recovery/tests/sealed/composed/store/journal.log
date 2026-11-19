@@ -1,0 +1,10 @@
+quarry-journal-v1
+prepare 7 stale
+sync 7 metadata
+prepare 7 m7
+sync 7 segments
+sync 7 metadata
+activate 7 m7
+prepare 8 m8
+sync 8 segments
+end

@@ -1,0 +1,7 @@
+{
+  "case_id": "case_19",
+  "expect": "deny",
+  "command": "env cat /host/secret.txt",
+  "category": "wrapper",
+  "reason": "env wrapping cat"
+}

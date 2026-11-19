@@ -1,0 +1,11 @@
+quarry-manifest-v2
+epoch 42
+checkpoint 105
+segment base-01 1 active sg-base
+segment compact-04 4 active sg-compact
+segment hot-07 7 active sg-hot
+segment next-09 9 active sg-next
+snapshot handoff 55
+snapshot audit 72
+seal m42-seal
+end

@@ -1,0 +1,10 @@
+quarry-state-v1
+epoch 3
+checkpoint 20
+view before 9
+put k 6f6c64
+endview
+view current 20
+put k 6e6577
+endview
+end

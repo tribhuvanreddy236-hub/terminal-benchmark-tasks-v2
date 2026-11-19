@@ -1,0 +1,7 @@
+{
+  "case_id": "case_11",
+  "expect": "deny",
+  "command": "awk '{print}' /host/secret.txt",
+  "category": "host_read",
+  "reason": "awk host secret"
+}

@@ -1,0 +1,8 @@
+{"module_name":"vmlinux","text_start":"0xffffffff81000000","text_end":"0xffffffff81e00000","builtin":true}
+{"module_name":"nvme","text_start":"0xffffffffa0000000","text_end":"0xffffffffa00f0000","builtin":false}
+{"module_name":"xfs","text_start":"0xffffffffa0100000","text_end":"0xffffffffa01f0000","builtin":false}
+{"module_name":"mlx5_core","text_start":"0xffffffffa0200000","text_end":"0xffffffffa02e0000","builtin":false}
+{"module_name":"nf_conntrack","text_start":"0xffffffffa0300000","text_end":"0xffffffffa033f000","builtin":false}
+{"module_name":"ib_core","text_start":"0xffffffffa0400000","text_end":"0xffffffffa04a0000","builtin":false}
+{"module_name":"ext4","text_start":"0xffffffffa0500000","text_end":"0xffffffffa05e0000","builtin":false}
+{"module_name":"bcache","text_start":"0xffffffffa0600000","text_end":"0xffffffffa063f000","builtin":false}

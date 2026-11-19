@@ -1,0 +1,28 @@
+quarry-state-v1
+epoch 41
+checkpoint 90
+view handoff 55
+put account:alpha 4132
+put account:beta 4231
+put cfg:mode 6f6c64
+put fixed:item 79
+put keep:one 31
+put tx:item 707265
+endview
+view audit 72
+put account:alpha 4132
+put cfg:mode 6e6577
+put keep:one 31
+put ledger:x 313030
+put post:cut 6f6c64
+put tx:item 6e657732
+endview
+view current 90
+put account:alpha 4133
+put cfg:mode 6e6577
+put keep:one 31
+put ledger:y 323030
+put post:cut 6f6c64
+put tx:item 6e657732
+endview
+end

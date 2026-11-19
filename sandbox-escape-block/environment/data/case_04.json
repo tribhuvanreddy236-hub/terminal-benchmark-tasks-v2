@@ -1,0 +1,7 @@
+{
+  "case_id": "case_04",
+  "expect": "allow",
+  "command": "python3 -c 'print(11)'",
+  "category": "allow_basic",
+  "reason": "benign python3 in work"
+}

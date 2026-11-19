@@ -1,0 +1,9 @@
+quarry-segment-v2
+id main
+generation 2
+put 5 k 6f6c64
+del 8 gone
+put 10 k 6e6577
+put 21 tail 78
+seal s-main
+end

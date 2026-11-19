@@ -1,0 +1,17 @@
+quarry-segment-v2
+id compact-04
+generation 4
+put 40 account:alpha 4132
+del 50 stale:item
+txput t7 52 tx:item 6e6577
+txput t7 53 ledger:x 313030
+txput t7 54 tx:item 6e657731
+txput t7 54 tx:item 6e657732
+commit t7 60
+txput t8 61 ghost:item 626164
+abort t8 65
+del 66 fixed:item
+put 71 cfg:mode 6e6577
+del 72 account:beta
+seal sg-compact
+end

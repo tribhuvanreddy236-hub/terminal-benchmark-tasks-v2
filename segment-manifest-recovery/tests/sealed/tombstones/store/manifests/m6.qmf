@@ -1,0 +1,9 @@
+quarry-manifest-v2
+epoch 6
+checkpoint 35
+segment base 1 active s-base
+segment delta 9 active s-delta
+snapshot before 19
+snapshot boundary 20
+seal m6
+end

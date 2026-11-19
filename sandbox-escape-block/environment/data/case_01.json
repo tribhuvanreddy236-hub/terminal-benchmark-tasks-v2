@@ -1,0 +1,7 @@
+{
+  "case_id": "case_01",
+  "expect": "allow",
+  "command": "pwd",
+  "category": "allow_basic",
+  "reason": "workdir prints /app/sandbox/work"
+}

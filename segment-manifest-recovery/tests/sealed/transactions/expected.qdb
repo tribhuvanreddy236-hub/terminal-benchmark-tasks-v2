@@ -1,0 +1,14 @@
+quarry-state-v1
+epoch 1
+checkpoint 50
+view precommit 24
+put acct 6f6c64
+endview
+view postcommit 30
+put acct 6e657733
+put extra 78
+endview
+view current 50
+put extra 78
+endview
+end

@@ -1,0 +1,8 @@
+quarry-manifest-v2
+epoch 1
+checkpoint 50
+segment tx 5 active s-tx
+snapshot precommit 24
+snapshot postcommit 30
+seal m1
+end

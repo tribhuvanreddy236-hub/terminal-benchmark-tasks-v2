@@ -1,0 +1,13 @@
+quarry-segment-v2
+id base-01
+generation 1
+put 10 account:alpha 4131
+put 12 account:beta 4231
+put 18 fixed:item 79
+put 20 cfg:mode 6f6c64
+put 25 stale:item 6c697665
+put 30 tx:item 707265
+put 35 keep:one 31
+put 70 post:cut 6f6c64
+seal sg-base
+end

@@ -1,0 +1,8 @@
+quarry-manifest-v2
+epoch 4
+checkpoint 30
+segment main 2 active s-main
+segment next 4 active s-next
+snapshot before 9
+seal m4
+end

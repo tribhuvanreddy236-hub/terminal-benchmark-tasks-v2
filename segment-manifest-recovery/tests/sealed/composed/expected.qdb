@@ -1,0 +1,17 @@
+quarry-state-v1
+epoch 7
+checkpoint 80
+view early 18
+put a 31
+put b 32
+endview
+view mid 55
+put a 31
+put c 33
+endview
+view current 80
+put a 34
+put d 35
+put e 36
+endview
+end

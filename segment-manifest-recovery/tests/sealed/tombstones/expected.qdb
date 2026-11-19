@@ -1,0 +1,13 @@
+quarry-state-v1
+epoch 6
+checkpoint 35
+view before 19
+put blue 74776f
+put red 6f6e65
+endview
+view boundary 20
+put blue 74776f
+endview
+view current 35
+endview
+end

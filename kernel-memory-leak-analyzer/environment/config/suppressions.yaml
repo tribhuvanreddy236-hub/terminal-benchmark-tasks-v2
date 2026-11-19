@@ -1,0 +1,24 @@
+min_age_sec: 10.0
+max_backtrace_depth: 6
+allocator_frames:
+  - kmalloc
+  - __kmalloc
+  - __kmalloc_node
+  - kzalloc
+  - kzalloc_node
+  - kmem_cache_alloc
+  - kmem_cache_alloc_node
+  - krealloc
+  - kvmalloc
+  - kvmalloc_node
+  - __kvmalloc
+  - vmalloc
+  - vzalloc
+  - __vmalloc
+  - alloc_pages
+  - __alloc_pages
+  - alloc_pages_current
+suppressed_prefixes:
+  - __ftrace
+  - trace_event_
+  - __probe_

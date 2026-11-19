@@ -1,0 +1,7 @@
+{
+  "case_id": "case_06",
+  "expect": "deny",
+  "command": "cat ../../../host/secret.txt",
+  "category": "host_read",
+  "reason": "traversal host secret"
+}

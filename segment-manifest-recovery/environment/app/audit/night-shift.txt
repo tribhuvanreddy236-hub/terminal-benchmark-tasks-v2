@@ -1,0 +1,12 @@
+West gallery handoff, 03:40
+
+The control pointer says epoch 42, but its acknowledgements straddled a restarted
+proposal, so no durability cycle completed. Epoch 41 was the last handoff with both
+devices acknowledged and covers sequence 90.
+
+The retained handoff view at sequence 55 contains six live keys and does not contain
+ledger:x. The audit view at sequence 72 contains six live keys. Current also contains
+six live keys. stale:item is absent from audit and current; account:beta is absent from
+audit and current. These counts came from the read-only console before the process was
+stopped. They are useful acceptance evidence, not a replacement for reconstructing the
+values.

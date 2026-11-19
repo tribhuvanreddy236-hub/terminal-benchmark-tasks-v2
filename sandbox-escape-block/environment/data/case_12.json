@@ -1,0 +1,7 @@
+{
+  "case_id": "case_12",
+  "expect": "deny",
+  "command": "sed -n 1p /host/secret.txt",
+  "category": "host_read",
+  "reason": "sed host secret"
+}

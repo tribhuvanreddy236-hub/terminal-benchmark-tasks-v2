@@ -1,0 +1,10 @@
+quarry-manifest-v2
+epoch 7
+checkpoint 80
+segment first 2 active s-first
+segment second 6 active s-second
+segment broken 8 candidate s-broken
+snapshot early 18
+snapshot mid 55
+seal m7
+end

@@ -1,0 +1,7 @@
+{
+  "case_id": "case_15",
+  "expect": "deny",
+  "command": "python3 -c \"open(chr(47)+'host/secret.txt').read()\"",
+  "category": "host_read",
+  "reason": "python3 chr47 host secret"
+}

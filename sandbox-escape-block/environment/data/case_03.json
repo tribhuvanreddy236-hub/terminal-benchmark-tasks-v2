@@ -1,0 +1,7 @@
+{
+  "case_id": "case_03",
+  "expect": "allow",
+  "command": "printf 'tag-case03\\n'",
+  "category": "allow_basic",
+  "reason": "printf newline escape"
+}

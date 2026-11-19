@@ -1,0 +1,15 @@
+quarry-segment-v2
+id tx
+generation 5
+put 1 acct 6f6c64
+txput x 10 acct 6e6577
+txput x 11 extra 78
+txput x 12 acct 6e657732
+txput x 12 acct 6e657733
+commit x 25
+txput y 12 ghost 626164
+abort y 26
+txput z 30 loose 6e6f
+del 40 acct
+seal s-tx
+end

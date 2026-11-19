@@ -1,0 +1,12 @@
+quarry-segment-v2
+id second
+generation 6
+del 20 b
+txput t2 30 a 7a
+abort t2 35
+txdel t3 40 c
+txput t3 41 d 35
+commit t3 70
+put 75 e 36
+seal s-second
+end

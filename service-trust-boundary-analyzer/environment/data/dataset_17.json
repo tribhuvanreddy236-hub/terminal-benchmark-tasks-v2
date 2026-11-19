@@ -1,0 +1,7 @@
+{
+  "scenario_id": "dataset_17",
+  "require_token_on_internal": true,
+  "policy_overrides": {
+    "require_token_on_internal": false
+  }
+}

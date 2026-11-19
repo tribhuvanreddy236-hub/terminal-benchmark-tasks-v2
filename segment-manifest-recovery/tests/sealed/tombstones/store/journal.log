@@ -1,0 +1,6 @@
+quarry-journal-v1
+prepare 6 m6
+sync 6 segments
+sync 6 metadata
+activate 6 m6
+end

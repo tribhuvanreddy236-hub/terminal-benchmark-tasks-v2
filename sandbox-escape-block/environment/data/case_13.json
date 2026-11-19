@@ -1,0 +1,7 @@
+{
+  "case_id": "case_13",
+  "expect": "deny",
+  "command": "wc -c /host/secret.txt",
+  "category": "host_read",
+  "reason": "wc host secret"
+}

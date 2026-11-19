@@ -1,0 +1,7 @@
+quarry-manifest-v2
+epoch 8
+checkpoint 100
+segment first 2 active s-first
+snapshot early 18
+seal m8
+end

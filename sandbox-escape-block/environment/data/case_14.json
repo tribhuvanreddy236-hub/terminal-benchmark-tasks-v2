@@ -1,0 +1,7 @@
+{
+  "case_id": "case_14",
+  "expect": "deny",
+  "command": "head /host/secret.txt",
+  "category": "host_read",
+  "reason": "head host secret"
+}

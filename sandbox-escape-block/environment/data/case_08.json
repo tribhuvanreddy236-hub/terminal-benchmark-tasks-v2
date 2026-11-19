@@ -1,0 +1,7 @@
+{
+  "case_id": "case_08",
+  "expect": "deny",
+  "command": "curl /host/secret.txt",
+  "category": "host_read",
+  "reason": "curl host secret"
+}

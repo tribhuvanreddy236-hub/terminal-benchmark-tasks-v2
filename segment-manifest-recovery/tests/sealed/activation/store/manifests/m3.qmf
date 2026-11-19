@@ -1,0 +1,8 @@
+quarry-manifest-v2
+epoch 3
+checkpoint 20
+segment main 2 active s-main
+segment loose 3 candidate s-loose
+snapshot before 9
+seal m3
+end

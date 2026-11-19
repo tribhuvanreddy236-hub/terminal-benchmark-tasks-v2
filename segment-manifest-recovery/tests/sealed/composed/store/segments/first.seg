@@ -1,0 +1,11 @@
+quarry-segment-v2
+id first
+generation 2
+put 10 a 31
+put 15 b 32
+txput t1 16 c 33
+commit t1 50
+put 60 a 34
+put 90 tail 39
+seal s-first
+end

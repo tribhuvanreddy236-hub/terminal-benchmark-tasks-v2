@@ -1,0 +1,12 @@
+quarry-segment-v2
+id hot-07
+generation 7
+put 15 cfg:mode 626164
+put 80 account:alpha 4133
+txdel t9 82 ledger:x
+txput t9 83 ledger:y 323030
+commit t9 88
+put 95 beyond:cut 7878
+del 96 keep:one
+seal sg-hot
+end

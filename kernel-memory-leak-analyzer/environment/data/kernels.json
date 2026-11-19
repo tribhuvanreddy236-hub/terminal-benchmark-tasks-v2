@@ -1,0 +1,5 @@
+{
+  "kernels": [
+    {"host": "prod-kfleet-09", "kernel_version": "5.15.143-1.amzn2.x86_64", "scan_ts": 1716000000, "uptime_sec": 8640000}
+  ]
+}

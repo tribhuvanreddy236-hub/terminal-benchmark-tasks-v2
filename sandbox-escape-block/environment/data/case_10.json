@@ -1,0 +1,7 @@
+{
+  "case_id": "case_10",
+  "expect": "deny",
+  "command": "grep . /host/secret.txt",
+  "category": "host_read",
+  "reason": "grep host secret"
+}
